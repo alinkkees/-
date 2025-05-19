@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Фруктовий смузі – Секрети смаку</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 0;
+      color: #880e4f;
+    }
+    header.navbar {
+      background-color: #f8bbd0;
+      padding: 40px 20px 50px 20px;
+      text-align: center;
+    }
+    header.navbar h1 {
+      margin: 0;
+      font-size: 6em;
+      font-weight: 900;
+      letter-spacing: 4px;
+      color: #ffffff;
+      text-shadow: 3px 3px 8px #880e4f;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 1.2em;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #880e4f;
+    }
+    nav ul li a.active {
+      background-color: #ffffff;
+      color: #880e4f;
+      font-weight: 700;
+      pointer-events: none;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto 60px auto;
+      padding: 0 20px;
+    }
+    main h2 {
+      background-color: #f8bbd0;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      text-align: center;
+      font-weight: 700;
+    }
+    .recipe-image {
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin: 0 auto 30px auto;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(136, 14, 79, 0.3);
+      object-fit: cover;
+    }
+    .recipe-description {
+      font-size: 1.2em;
+      margin-bottom: 25px;
+      text-align: center;
+      color: #5c0040;
+    }
+    .ingredients, .instructions {
+      background-color: #f8bbd0;
+      border-radius: 12px;
+      padding: 20px 25px;
+      box-shadow: 0 4px 10px rgba(136, 14, 79, 0.2);
+      margin-bottom: 30px;
+      font-size: 1.15em;
+      color: #4a0022;
+    }
+    .ingredients h3, .instructions h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-weight: 700;
+      color: #880e4f;
+    }
+    .ingredients ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #f8bbd0;
+      color: #880e4f;
+      text-align: center;
+      padding: 20px;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <h1>Секрети смаку</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="categories.html">Категорії</a></li>
+        <li><a href="recipes.html" class="active">Рецепти</a></li>
+        <li><a href="forum.html">Форум</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Фруктовий смузі</h2>
+    <img src="smoothie.jpg" alt="Фруктовий смузі" class="recipe-image" />
+    <p class="recipe-description">
+      Легкий і освіжаючий смузі для ідеального початку дня. Ідеальний баланс фруктів і вітамінів.
+    </p>
+
+    <section class="ingredients">
+      <h3>Інгредієнти</h3>
+      <ul>
+        <li>1 банан</li>
+        <li>1 склянка свіжої полуниці</li>
+        <li>1/2 склянки ананасового соку</li>
+        <li>1/2 склянки натурального йогурту</li>
+        <li>1 чайна ложка меду (за бажанням)</li>
+        <li>Лід за смаком</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Приготування</h3>
+      <ol>
+        <li>Банан очистити і нарізати на шматочки.</li>
+        <li>Полуницю промити та видалити зелені частини.</li>
+        <li>У блендері змішати банан, полуницю, ананасовий сік і йогурт.</li>
+        <li>Додати мед і лід за смаком.</li>
+        <li>Збити до однорідної консистенції.</li>
+        <li>Перелити у склянку та подавати одразу.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    Секрети смаку
+  </footer>
+</body>
+</html>

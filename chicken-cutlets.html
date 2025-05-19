@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Курячі котлети з пюре – Секрети смаку</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 0;
+      color: #880e4f;
+    }
+    header.navbar {
+      background-color: #f8bbd0;
+      padding: 40px 20px 50px 20px;
+      text-align: center;
+    }
+    header.navbar h1 {
+      margin: 0;
+      font-size: 6em;
+      font-weight: 900;
+      letter-spacing: 4px;
+      color: #ffffff;
+      text-shadow: 3px 3px 8px #880e4f;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 1.2em;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #880e4f;
+    }
+    nav ul li a.active {
+      background-color: #ffffff;
+      color: #880e4f;
+      font-weight: 700;
+      pointer-events: none;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto 60px auto;
+      padding: 0 20px;
+    }
+    main h2 {
+      background-color: #f8bbd0;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      text-align: center;
+      font-weight: 700;
+    }
+    .recipe-image {
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin: 0 auto 30px auto;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(136, 14, 79, 0.3);
+      object-fit: cover;
+    }
+    .recipe-description {
+      font-size: 1.2em;
+      margin-bottom: 25px;
+      text-align: center;
+      color: #5c0040;
+    }
+    .ingredients, .instructions {
+      background-color: #f8bbd0;
+      border-radius: 12px;
+      padding: 20px 25px;
+      box-shadow: 0 4px 10px rgba(136, 14, 79, 0.2);
+      margin-bottom: 30px;
+      font-size: 1.15em;
+      color: #4a0022;
+    }
+    .ingredients h3, .instructions h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-weight: 700;
+      color: #880e4f;
+    }
+    .ingredients ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #f8bbd0;
+      color: #880e4f;
+      text-align: center;
+      padding: 20px;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+    a.back-link {
+      display: inline-block;
+      margin-top: 15px;
+      color: #880e4f;
+      font-weight: 700;
+      text-decoration: none;
+      border: 2px solid #880e4f;
+      padding: 8px 16px;
+      border-radius: 12px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    a.back-link:hover {
+      background-color: #880e4f;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <h1>Секрети смаку</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="categories.html">Категорії</a></li>
+        <li><a href="recipes.html" class="active">Рецепти</a></li>
+        <li><a href="forum.html">Форум</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Курячі котлети з пюре</h2>
+    <img src="chicken_cutlets_mash.jpg" alt="Курячі котлети з пюре" class="recipe-image" />
+    <p class="recipe-description">
+      Смачні та соковиті курячі котлети, подані з ніжним картопляним пюре – класика домашньої кухні.
+    </p>
+
+    <section class="ingredients">
+      <h3>Інгредієнти</h3>
+      <ul>
+        <li>400 г курячого фаршу</li>
+        <li>1 цибулина</li>
+        <li>1 яйце</li>
+        <li>2 ст.л. панірувальних сухарів</li>
+        <li>Сіль, перець за смаком</li>
+        <li>Олія для смаження</li>
+        <li>5-6 середніх картоплин</li>
+        <li>50 мл молока</li>
+        <li>30 г вершкового масла</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Приготування</h3>
+      <ol>
+        <li>Цибулю дрібно наріжте і обсмажте до золотистого кольору.</li>
+        <li>Змішайте фарш, смажену цибулю, яйце, сухарі, сіль та перець. Добре вимішайте.</li>
+        <li>Сформуйте котлети і обсмажте їх на розігрітій олії до рум'яної скоринки з обох боків, потім зменшіть вогонь і доведіть до готовності під кришкою 5-7 хвилин.</li>
+        <li>Картоплю очистіть, наріжте і відваріть у підсоленій воді до м’якості.</li>
+        <li>Злийте воду, додайте молоко і вершкове масло, потовчіть до однорідного пюре.</li>
+        <li>Подавайте котлети з гарячим пюре.</li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer>
+    Секрети смаку
+  </footer>
+</body>
+</html>
+

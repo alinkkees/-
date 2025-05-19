@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Чізкейк без випікання – Секрети смаку</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 0;
+      color: #880e4f;
+    }
+    header.navbar {
+      background-color: #f8bbd0;
+      padding: 40px 20px 50px 20px;
+      text-align: center;
+    }
+    header.navbar h1 {
+      margin: 0;
+      font-size: 6em;
+      font-weight: 900;
+      letter-spacing: 4px;
+      color: #ffffff;
+      text-shadow: 3px 3px 8px #880e4f;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 1.2em;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #880e4f;
+    }
+    nav ul li a.active {
+      background-color: #ffffff;
+      color: #880e4f;
+      font-weight: 700;
+      pointer-events: none;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto 60px auto;
+      padding: 0 20px;
+    }
+    main h2 {
+      background-color: #f8bbd0;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      text-align: center;
+      font-weight: 700;
+    }
+    .recipe-image {
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin: 0 auto 30px auto;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(136, 14, 79, 0.3);
+      object-fit: cover;
+    }
+    .recipe-description {
+      font-size: 1.2em;
+      margin-bottom: 25px;
+      text-align: center;
+      color: #5c0040;
+    }
+    .ingredients, .instructions {
+      background-color: #f8bbd0;
+      border-radius: 12px;
+      padding: 20px 25px;
+      box-shadow: 0 4px 10px rgba(136, 14, 79, 0.2);
+      margin-bottom: 30px;
+      font-size: 1.15em;
+      color: #4a0022;
+    }
+    .ingredients h3, .instructions h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-weight: 700;
+      color: #880e4f;
+    }
+    .ingredients ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #f8bbd0;
+      color: #880e4f;
+      text-align: center;
+      padding: 20px;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+    a.back-link {
+      display: inline-block;
+      margin-top: 15px;
+      color: #880e4f;
+      font-weight: 700;
+      text-decoration: none;
+      border: 2px solid #880e4f;
+      padding: 8px 16px;
+      border-radius: 12px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    a.back-link:hover {
+      background-color: #880e4f;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <h1>Секрети смаку</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="categories.html">Категорії</a></li>
+        <li><a href="recipes.html" class="active">Рецепти</a></li>
+        <li><a href="forum.html">Форум</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Чізкейк без випікання</h2>
+    <img src="cheesecake_no_bake.jpg" alt="Чізкейк без випікання" class="recipe-image" />
+    <p class="recipe-description">
+      Легкий і смачний десерт, який не потребує випікання. Ідеально підходить для швидкого приготування.
+    </p>
+
+    <section class="ingredients">
+      <h3>Інгредієнти</h3>
+      <ul>
+        <li>200 г печива (наприклад, «Марія»)</li>
+        <li>100 г вершкового масла</li>
+        <li>400 г вершкового сиру (cream cheese)</li>
+        <li>200 мл вершків 33-35%</li>
+        <li>100 г цукру</li>
+        <li>1 ч.л. ванільного цукру</li>
+        <li>2 ст.л. лимонного соку</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Приготування</h3>
+      <ol>
+        <li>Подрібніть печиво в крихту, розтопіть масло і змішайте з печивом. Викладіть суміш у форму, утрамбуйте і поставте в холодильник.</li>
+        <li>Збийте вершковий сир з цукром і ванільним цукром до однорідності.</li>
+        <li>Окремо збийте вершки до стійких піків.</li>
+        <li>Обережно змішайте сирну масу з вершками і додайте лимонний сік.</li>
+        <li>Вилийте крем на основу з печива і поставте в холодильник мінімум на 4 години, краще на ніч.</li>
+        <li>Перед подачею можна прикрасити ягодами або шоколадною стружкою.</li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer>
+    Секрети смаку
+  </footer>
+</body>
+</html>

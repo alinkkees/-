@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Форум – Секрети смаку</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 0;
+      color: #880e4f;
+    }
+    header.navbar {
+      background-color: #f8bbd0;
+      padding: 40px 20px 50px 20px;
+      text-align: center;
+    }
+    header.navbar h1 {
+      margin: 0;
+      font-size: 6em;
+      font-weight: 900;
+      letter-spacing: 4px;
+      color: #ffffff;
+      text-shadow: 3px 3px 8px #880e4f;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 1.2em;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #880e4f;
+    }
+    main {
+      max-width: 700px;
+      margin: 30px auto 60px auto;
+      padding: 0 20px;
+    }
+    main h2 {
+      background-color: #f8bbd0;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      text-align: center;
+      font-weight: 700;
+    }
+    section.new-topic {
+      background-color: #f8bbd0;
+      border-radius: 12px;
+      padding: 25px 30px;
+      box-shadow: 0 4px 10px rgba(136, 14, 79, 0.2);
+      margin-bottom: 40px;
+    }
+    section.new-topic h3 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 1.8em;
+      font-weight: 700;
+      color: #880e4f;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input[type="text"],
+    textarea {
+      padding: 12px 15px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 8px;
+      resize: vertical;
+      font-family: Arial, sans-serif;
+    }
+    input[type="text"]:focus,
+    textarea:focus {
+      outline: 3px solid #880e4f;
+      background-color: #ffe6f0;
+    }
+    textarea {
+      min-height: 120px;
+    }
+    button[type="submit"] {
+      background-color: #880e4f;
+      color: #fff0f5;
+      font-weight: 700;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 10px;
+      padding: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      max-width: 180px;
+      align-self: center;
+    }
+    button[type="submit"]:hover {
+      background-color: #aa0f6c;
+    }
+    footer {
+      background-color: #f8bbd0;
+      color: #880e4f;
+      text-align: center;
+      padding: 20px;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <h1>Секрети смаку</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="categories.html">Категорії</a></li>
+        <li><a href="recipes.html">Рецепти</a></li>
+        <li><a href="forum.html" style="background-color: #ffffff; color: #880e4f; font-weight: 700; pointer-events: none;">Форум</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Форум кулінарів</h2>
+    <section class="new-topic">
+      <h3>Додати нову тему</h3>
+      <form>
+        <input type="text" placeholder="Назва теми" required />
+        <textarea placeholder="Ваше повідомлення" required></textarea>
+        <button type="submit">Опублікувати</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    Секрети смаку
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,162 @@
+/* Основні стилі */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fce4ec; /* Легкий рожевий фон */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #e91e63; /* Яскравий рожевий колір для посилань */
+}
+
+a:hover {
+  color: #d81b60; /* Трохи темніший відтінок рожевого при наведенні */
+}
+
+/* Шапка */
+.main-header {
+  background-color: #f48fb1; /* М'який рожевий фон */
+  padding: 20px 0;
+}
+
+.header-content h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  margin: 0;
+}
+
+.nav-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-list li a {
+  font-size: 18px;
+  color: #fff;
+}
+
+.nav-list li a:hover {
+  color: #d81b60; /* Темніший рожевий для ховера */
+}
+
+/* Привітання */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8bbd0; /* Світло-рожевий фон */
+  padding: 40px;
+}
+
+.intro-text h2 {
+  font-size: 28px;
+  color: #e91e63;
+}
+
+.intro-text p {
+  font-size: 18px;
+  color: #555;
+  max-width: 600px;
+}
+
+.intro-image {
+  width: 40%;
+  border-radius: 10px;
+}
+
+/* Категорії */
+.categories {
+  background-color: #f8bbd0;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+}
+
+.category-list li {
+  display: inline-block;
+  margin: 15px;
+}
+
+.category-list li a {
+  font-size: 20px;
+  color: #e91e63;
+  background-color: #f48fb1;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.category-list li a:hover {
+  background-color: #d81b60;
+}
+
+/* Популярні рецепти */
+.featured-recipes {
+  padding: 40px 0;
+  background-color: #fce4ec;
+  text-align: center;
+}
+
+.featured-recipes h2 {
+  font-size: 32px;
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.two-column-text {
+  column-count: 2; /* Встановлює два стовпці */
+  column-gap: 30px; /* Відстань між стовпцями */
+  text-align: justify; /* Для вирівнювання тексту по ширині */
+}
+
+
+.recipe-card {
+  background-color: #fff;
+  border: 1px solid #f48fb1; /* Легка рожева обводка */
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.recipe-card h3 {
+  color: #e91e63;
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.recipe-card p {
+  color: #555;
+  font-size: 16px;
+}
+
+/* Футер */
+.footer {
+  background-color: #f48fb1;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 18px;
+}

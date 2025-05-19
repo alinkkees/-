@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Кулінарний форум «Секрети смаку»</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #fff0f5; margin: 0; padding: 0;">
+
+  <!-- Шапка -->
+  <header style="background-color: #f8bbd0; padding: 40px 20px 50px 20px; text-align: center;">
+  <h1 style="margin: 0; color: #ffffff; font-size: 6em; font-weight: 900; letter-spacing: 4px; text-shadow: 3px 3px 8px #880e4f;">
+    Секрети смаку
+  </h1>
+ <nav>
+  <ul>
+    <li><a href="index.html">Головна</a></li>
+    <li><a href="categories.html">Категорії</a></li>
+    <li><a href="recipes.html">Рецепти</a></li>
+    <li><a href="forum.html">Форум</a></li>
+    <li><a href="contacts.html">Контакти</a></li>
+  </ul>
+</nav>
+
+<style>
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #880e4f;
+    font-weight: 700;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(136, 14, 79, 0.2);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    display: inline-block;
+  }
+  nav ul li a:hover {
+    background-color: #f8bbd0;
+    box-shadow: 0 6px 12px rgba(136, 14, 79, 0.4);
+  }
+</style>
+
+</header>
+  <!-- Привітання -->
+<section style="
+  display: flex;
+  align-items: center;
+  padding: 50px 80px;
+  max-width: 1400px;
+  margin: 50px auto;
+  gap: 60px;
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+  border-radius: 30px;
+  box-shadow: 0 20px 50px rgba(136, 14, 79, 0.35);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+">
+  <div style="
+    flex: 3;
+    background-color: #ffffffdd;
+    padding: 45px 50px;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(136, 14, 79, 0.18);
+    font-size: 1.35rem;
+    line-height: 1.75;
+    color: #4a0022;
+  ">
+    <h2 style="
+      margin-top: 0;
+      margin-bottom: 25px;
+      color: #880e4f;
+      font-size: 3.2rem;
+      font-weight: 700;
+      text-shadow: 1.5px 1.5px 4px #f8bbd0;
+      letter-spacing: 0.06em;
+    ">
+      Ласкаво просимо на наш кулінарний форум!
+    </h2>
+    <p style="margin: 0;">
+      На сайті «Секрети смаку» ви знайдете не просто рецепти — а справжні історії, смаки дитинства, натхнення для щоденних і святкових страв. Долучайтеся до нашої спільноти, діліться улюбленими рецептами, залишайте відгуки та надихайте інших творити смачне життя разом із нами!
+    </p>
+  </div>
+  <img src="welcome.jpg" alt="Кулінарія" style="
+    flex: 1.5;
+    max-width: 450px;
+    border-radius: 30px;
+    box-shadow: 0 20px 50px rgba(136, 14, 79, 0.35);
+  " />
+</section>
+
+
+<!-- Категорії -->
+<section style="padding: 10px 20px 10px 20px;">
+  <h2 style="background-color: #f8bbd0; padding: 15px; border-radius: 8px; color: #880e4f; font-size: 2em;">Категорії страв</h2>
+  <ul style="display: flex; flex-wrap: wrap; gap: 15px; list-style: none; padding: 0; margin-top: 10px;">
+    <li><a href="breakfast.html" style="padding: 12px 18px; border-radius: 8px; background-color: #ffffff; font-size: 1.3em; color: #880e4f; text-decoration: none;">Сніданки</a></li>
+    <li><a href="lunch.html" style="padding: 12px 18px; border-radius: 8px; background-color: #ffffff; font-size: 1.3em; color: #880e4f; text-decoration: none;">Обіди</a></li>
+    <li><a href="desserts.html" style="padding: 12px 18px; border-radius: 8px; background-color: #ffffff; font-size: 1.3em; color: #880e4f; text-decoration: none;">Десерти</a></li>
+    <li><a href="kids.html" style="padding: 12px 18px; border-radius: 8px; background-color: #ffffff; font-size: 1.3em; color: #880e4f; text-decoration: none;">Дитяче меню</a></li>
+  </ul>
+</section>
+
+<!-- Популярні рецепти -->
+<section class="popular-recipes">
+  <h2>Популярні рецепти</h2>
+
+  <div class="recipe-card">
+    <img src="smoothie.jpg" alt="Фруктовий смузі" />
+    <div>
+      <h3><a href="fruit-smoothie.html">Фруктовий смузі</a></h3>
+      <p>Легкий і освіжаючий смузі для ідеального початку дня.</p>
+    </div>
+  </div>
+
+  <div class="recipe-card">
+    <img src="salmon-toast.jpg" alt="Тости з лососем" />
+    <div>
+      <h3><a href="salmon-toast.html">Тости з лососем</a></h3>
+      <p>Смачний варіант на сніданок або перекус із червоною рибою.</p>
+    </div>
+  </div>
+
+  <div class="recipe-card">
+    <img src="avocado-toast.jpg" alt="Канапки з авокадо" />
+    <div>
+      <h3><a href="avocado-toast.html">Канапки з авокадо</a></h3>
+      <p>Простий і поживний варіант з авокадо на кожен день.</p>
+    </div>
+  </div>
+
+  <div class="recipe-card">
+    <img src="banana-pancakes.jpg" alt="Бананові панкейки" />
+    <div>
+      <h3><a href="banana-pancakes.html">Бананові панкейки</a></h3>
+      <p>Солодкий сніданок без цукру — смачно та корисно!</p>
+    </div>
+  </div>
+
+  <style>
+    .popular-recipes {
+      margin: 40px 0;
+      background-color: #f8bbd0;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(136, 14, 79, 0.2);
+    }
+
+    .popular-recipes h2 {
+      color: #ffffff;
+      font-size: 2.8em;
+      margin-bottom: 30px;
+      text-align: center;
+      text-shadow: 2px 2px 8px #880e4f;
+    }
+
+    .recipe-card {
+      display: flex;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(136, 14, 79, 0.2);
+      margin-bottom: 30px;
+      gap: 20px;
+    }
+
+    .recipe-card img {
+      width: 150px;
+      border-radius: 10px;
+      flex-shrink: 0;
+      box-shadow: 0 8px 20px rgba(136, 14, 79, 0.15);
+    }
+
+    .recipe-card h3 {
+      color: #880e4f;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .recipe-card p {
+      font-size: 1.1em;
+      color: #555;
+    }
+
+    .recipe-card a {
+      text-decoration: none;
+      color: #880e4f;
+    }
+
+    .recipe-card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</section>
+
+
+
+  <!-- Футер -->
+  <footer style="text-align: center; background-color: #f8bbd0; padding: 20px; color: #880e4f;">
+    <p> Секрети смаку</p>
+  </footer>
+
+</body>
+</html>

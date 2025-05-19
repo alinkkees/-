@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Омлет з овочами – Секрети смаку</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 0;
+      color: #880e4f;
+    }
+    header.navbar {
+      background-color: #f8bbd0;
+      padding: 40px 20px 50px 20px;
+      text-align: center;
+    }
+    header.navbar h1 {
+      margin: 0;
+      font-size: 6em;
+      font-weight: 900;
+      letter-spacing: 4px;
+      color: #ffffff;
+      text-shadow: 3px 3px 8px #880e4f;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 1.2em;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #880e4f;
+    }
+    nav ul li a.active {
+      background-color: #ffffff;
+      color: #880e4f;
+      font-weight: 700;
+      pointer-events: none;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto 60px auto;
+      padding: 0 20px;
+    }
+    main h2 {
+      background-color: #f8bbd0;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      text-align: center;
+      font-weight: 700;
+    }
+    .recipe-image {
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin: 0 auto 30px auto;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(136, 14, 79, 0.3);
+      object-fit: cover;
+    }
+    .recipe-description {
+      font-size: 1.2em;
+      margin-bottom: 25px;
+      text-align: center;
+      color: #5c0040;
+    }
+    .ingredients, .instructions {
+      background-color: #f8bbd0;
+      border-radius: 12px;
+      padding: 20px 25px;
+      box-shadow: 0 4px 10px rgba(136, 14, 79, 0.2);
+      margin-bottom: 30px;
+      font-size: 1.15em;
+      color: #4a0022;
+    }
+    .ingredients h3, .instructions h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-weight: 700;
+      color: #880e4f;
+    }
+    .ingredients ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #f8bbd0;
+      color: #880e4f;
+      text-align: center;
+      padding: 20px;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+    a.back-link {
+      display: inline-block;
+      margin-top: 15px;
+      color: #880e4f;
+      font-weight: 700;
+      text-decoration: none;
+      border: 2px solid #880e4f;
+      padding: 8px 16px;
+      border-radius: 12px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    a.back-link:hover {
+      background-color: #880e4f;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <h1>Секрети смаку</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="categories.html">Категорії</a></li>
+        <li><a href="recipes.html" class="active">Рецепти</a></li>
+        <li><a href="forum.html">Форум</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Омлет з овочами</h2>
+    <img src="omelet_vegetables.jpg" alt="Омлет з овочами" class="recipe-image" />
+    <p class="recipe-description">
+      Легкий і корисний омлет з різноманітними овочами — відмінний вибір для ситного сніданку.
+    </p>
+
+    <section class="ingredients">
+      <h3>Інгредієнти</h3>
+      <ul>
+        <li>3 яйця</li>
+        <li>1/2 червоного болгарського перцю</li>
+        <li>1/2 маленького помідора</li>
+        <li>50 г броколі</li>
+        <li>1 зелена цибулина</li>
+        <li>2 ст.л. молока</li>
+        <li>Сіль і перець за смаком</li>
+        <li>Олія для смаження</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Приготування</h3>
+      <ol>
+        <li>Овочі помийте. Болгарський перець і помідор наріжте кубиками, броколі розберіть на маленькі суцвіття, цибулю – кільцями.</li>
+        <li>Яйця збийте з молоком, сіллю і перцем до однорідності.</li>
+        <li>На розігрітій сковороді з олією трохи обсмажте овочі 3-4 хвилини.</li>
+        <li>Вилийте яєчну суміш на овочі, накрийте кришкою і готуйте на середньому вогні 5-7 хвилин, поки омлет не схопиться.</li>
+        <li>Подавайте гарячим, за бажанням посипте свіжою зеленню.</li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer>
+    Секрети смаку
+  </footer>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Категорії – Секрети смаку</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 0;
+      color: #880e4f;
+    }
+    header.navbar {
+      background-color: #f8bbd0;
+      padding: 40px 20px 50px 20px;
+      text-align: center;
+    }
+    header.navbar h1 {
+      margin: 0;
+      font-size: 6em;
+      font-weight: 900;
+      letter-spacing: 4px;
+      color: #ffffff;
+      text-shadow: 3px 3px 8px #880e4f;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 1.2em;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #880e4f;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto 60px auto;
+      padding: 0 20px;
+    }
+    main h2 {
+      background-color: #f8bbd0;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 2em;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .category-card {
+      background-color: #f8bbd0;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 8px rgba(136, 14, 79, 0.2);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+    .category-card:hover {
+      box-shadow: 0 8px 16px rgba(136, 14, 79, 0.4);
+      transform: translateY(-5px);
+    }
+    .category-card img {
+      width: 200px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .category-card h3 {
+      margin: 0 0 10px 0;
+      font-size: 1.8em;
+      color: #880e4f;
+    }
+    .category-card p {
+      margin: 0;
+      font-size: 1.1em;
+      color: #5c0040;
+    }
+    footer {
+      background-color: #f8bbd0;
+      color: #880e4f;
+      text-align: center;
+      padding: 20px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <h1>Секрети смаку</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="categories.html" style="background-color: #ffffff; color: #880e4f; font-weight: 700; pointer-events: none;">Категорії</a></li>
+        <li><a href="recipes.html">Рецепти</a></li>
+        <li><a href="forum.html">Форум</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Категорії страв</h2>
+    <div class="category-card">
+      
+      <div>
+        <h3><a href="breakfast.html" style="color:#880e4f; text-decoration:none;">Сніданки</a></h3>
+        <p>Легкі ідеї для ідеального ранку.</p>
+      </div>
+    </div>
+    <div class="category-card">
+     
+      <div>
+        <h3><a href="lunch.html" style="color:#880e4f; text-decoration:none;">Обіди</a></h3>
+        <p>Ситні страви для всього дня.</p>
+      </div>
+    </div>
+    <div class="category-card">
+     
+      <div>
+        <h3><a href="desserts.html" style="color:#880e4f; text-decoration:none;">Десерти</a></h3>
+        <p>Солодке задоволення на будь-який смак.</p>
+      </div>
+    </div>
+    <div class="category-card">
+      
+      <div>
+        <h3><a href="kids.html" style="color:#880e4f; text-decoration:none;">Дитяче меню</a></h3>
+        <p>Страви, які полюблять малюки.</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    Секрети смаку
+  </footer>
+</body>
+</html>
